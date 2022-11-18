@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Navbar */
+
+.navbar a{
+    transition: .2s;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar .input{
+    font-size: 2rem;
+    margin: 5px 20px;
+    cursor: pointer;
+}
+
+.navbar form input{
+    width: 20rem;
+    border: 1px solid black;
+}
+
+.navbar form button{
+    transition: .5s;
+}
+
+.navbar form button:hover{
+    background-color: rgb(150, 150, 150);
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+/* Cards Info */
+
+.card{
+    margin: 2rem auto;
+    width: 40vw;
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 1s;
+}
+
+.card:hover{
+    background-color: rgb(170, 116, 116);
+    color: white;
+}
+
+.card-body{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+
+/* Search Input */
+
+.search-input{
+    margin-bottom: 3rem;
+}
+
+.search-input .form-control{
+    transition: .5s;
+}
+
+.search-input .form-control:hover{
+    width: 33vw;
+    /* background-color: rgb(188, 228, 255); */
+}
+
+.search-input .container-fluid input{
+    width: 30vw;
+    margin: auto !important;
+}
+
+
+.search-input .d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-input .d-flex button{
+    width: 100px;
+    margin: 10px auto;
+}
+
+
+
+/* Output */
+
+.container .row #output-card:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+.row #output-card{
+    margin-bottom: 40px;
+    /* border: 0px solid white; */
+    border-radius: 15px;
+    /* margin: 10px auto; */
+}
+
+.row #output-card h3 {
+    color: white;
+    margin: 1rem;
+}
+
+.row #output-card p{
+    color: white;
+}
+
+.row #output-card .card-body{
+    border: 0 solid black;
+}
+
+.row #output-card a{
+    margin-bottom: 20px;
+}
