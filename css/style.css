@@ -11,6 +11,8 @@ body{
 /* Navbar */
 
 .navbar a{
+    font-family: 'Syne Mono', monospace;
+    font-weight: 900;
     transition: .2s;
     padding: 10px;
 }
@@ -114,6 +116,18 @@ body{
     /* border: 0px solid white; */
     border-radius: 15px;
     /* margin: 10px auto; */
+    transition: .4s;
+}
+
+.row #output-card a{
+    transition: .5s;
+    border: 1px solid black;
+}
+
+.row #output-card a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    /* font-weight: 400; */
 }
 
 .row #output-card h3 {
