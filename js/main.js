@@ -7,7 +7,7 @@ $(document).ready(() => {
 
     // js for typing effect, shopuld be attached with .ready() function
     var typed = new Typed('#typed-element', {
-        strings: ["you love.", "you like."],
+        strings: ["you love.", "you like...."],
         smartBackspace: false,
         typeSpeed: 100,
         backSpeed: 100,

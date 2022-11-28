@@ -5,7 +5,9 @@ body{
     padding: 0;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 
 /* Navbar */
@@ -15,6 +17,10 @@ body{
     font-weight: 900;
     transition: .2s;
     padding: 10px;
+}
+
+.navbar .container-fluid{
+    width: 100%;
 }
 
 .navbar a:hover{
@@ -50,22 +56,23 @@ body{
 
 /* Cards Info */
 
-.card{
+.info-card{
     margin: 2rem auto;
-    width: 40vw;
+    width: 60vw;
     background-color: rgb(83, 83, 83);
     color: rgb(255, 255, 255);
     text-align: center;
-    transition: 1s;
+    transition: 0.5s;
 }
 
-.card:hover{
-    background-color: rgb(170, 116, 116);
-    color: white;
+.info-card:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: .2rem solid rgb(168, 81, 249);
 }
 
-.card-body{
-    border: 2px solid black;
+.info-card .card-body{
+    /* border: 2px solid black; */
     border-radius: 5px;
 }
 
@@ -102,6 +109,25 @@ body{
     width: 100px;
     margin: 10px auto;
 }
+
+
+
+
+/* About section */
+
+.about-sec{
+    /* background-color: azure; */
+    margin: 10rem auto;
+    width: 60vw;
+}
+
+#in-about{
+    background-color: azure !important;
+    margin: 1rem 0;
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+}
+
 
 
 
@@ -145,4 +171,25 @@ body{
 
 .row #output-card a{
     margin-bottom: 20px;
+}
+
+
+
+
+/* About sec */
+
+#about-sec{
+    margin: 4rem auto;
+    width: 80vw;
+}
+
+#about-sec .col .card-body{
+    background-color: rgb(177, 255, 255);
+    font-size: 1.2rem;
+    font-family: 'Patrick Hand', cursive;
+    transition: .3s;
+}
+
+#about-sec .col .card-body:hover{
+    background-color: white;
 }

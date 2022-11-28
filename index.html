@@ -13,6 +13,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    <!-- Animate scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
@@ -24,6 +27,7 @@
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 
     <title>Wander movies | Know your movie</title>
 
@@ -42,16 +46,18 @@
 
     <!-- Info card -->
 
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">Find the movies <span id="typed-element"></span></h5>
-            <p class="card-text">
-                Want the information about any movie before you watch it on big screen ? <br> Well you are on right
-                place. <br> Welcome to the world of movies where you will find info about all the movies around the
-                world. Hope you will enjoy it !! <b>Happy movies</b>
-            </p>
+    <a href="#about-sec">
+        <div class="card info-card">
+            <div class="card-body">
+                <h5 class="card-title">Find the movies <span id="typed-element"></span></h5>
+                <p class="card-text">
+                    Want the information about any movie before you watch it on big screen ? <br> Well you are on right
+                    place. <br> Welcome to the world of movies where you will find info about all the movies around the
+                    world. Hope you will enjoy it !! <b>Happy movies</b>
+                </p>
+            </div>
         </div>
-    </div>
+    </a>
 
     <!-- Search Input -->
 
@@ -74,12 +80,64 @@
         </div>
     </div>
 
+    <!-- About section -->
+
+    <div id="about-sec" class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+                    <p class="card-text">Want to know all about your favorite movies and series ? You're at the correct
+                        place </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+                    <p class="card-text">Wander movies !! The one stop place to get to know about your favorite binge
+                        watching's.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+                    <p class="card-text">Get to know about Imdb ratings, year of release and all other stuffs that you
+                        need to know before watching.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+                    <p class="card-text">Simple to get started. Just search any movie or series you want to know about
+                        and hit the search button</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 
 <!-- Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+<!-- Animate on scroll -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 <!-- Font awesome -->
 <script src="https://kit.fontawesome.com/5402c79396.js" crossorigin="anonymous"></script>
@@ -87,6 +145,7 @@
 <!-- Jquery file -->
 <script type="text/javascript" src="./js/main.js"></script>
 
+<!-- typed.js file -->
 <script src="./lib/typed.js"></script>
 
 <!-- Axios -->
