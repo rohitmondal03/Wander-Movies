@@ -5,16 +5,16 @@ $(document).ready(() => {
         e.preventDefault();
     })
 
-    // js for typing effect, shopuld be attached with .ready() function
-    var typed = new Typed('#typed-element', {
-        strings: ["you love.", "you like...."],
-        smartBackspace: false,
-        typeSpeed: 100,
-        backSpeed: 100,
-        loop: true,
-        loopCount: Infinity,
-        startDelay: 500
-    });
+    // js for typing effect, should be attached with .ready() function
+    // var typed = new Typed('#typed-element', {
+    //     strings: ["you love.", "you like."],
+    //     smartBackspace: false,
+    //     typeSpeed: 150,
+    //     backSpeed: 150,
+    //     loop: true,
+    //     loopCount: Infinity,
+    //     startDelay: 900
+    // });
     
 })
 
