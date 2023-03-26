@@ -94,7 +94,7 @@ a {
 
 @keyframes bgColor {
     0% {
-      background-color: rgb(255, 0, 81);
+      background-color: rgb(255, 90, 142);
     }
     20% {
       background-color: rgb(252, 178, 103);
@@ -103,13 +103,13 @@ a {
       background-color: rgb(255, 226, 64);
     }
     60% {
-      background-color: rgb(72, 255, 136);
+      background-color: rgb(145, 255, 184);
     }
     80% {
-      background-color: cornflowerblue;
+      background-color: rgb(61, 199, 212);
     }
     100% {
-      background-color: rgb(255, 0, 81);
+      background-color: rgb(255, 90, 142);
     }
   }
   
@@ -181,7 +181,7 @@ a {
 }
 
 .col:nth-child(2n):hover {
-    clip-path: circle(140.9% at 0 0);
+    /* clip-path: circle(140.9% at 0 0); */
 }
 
 .col:nth-child(2n+1) {
@@ -191,7 +191,7 @@ a {
 }
 
 .col:nth-child(2n+1):hover {
-    clip-path: circle(140.9% at 0 0);
+    /* clip-path: circle(140.9% at 0 0); */
 }
 
 #in-about {
@@ -225,12 +225,12 @@ a {
 /* Output */
 
 .container .row #output-card:hover {
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(255, 44, 160);
 }
 
 .row #output-card {
     margin-bottom: 40px;
-    /* border: 0px solid white; */
+    /* border: 1px solid white; */
     border-radius: 15px;
     /* margin: 10px auto; */
     transition: .4s;
@@ -300,28 +300,6 @@ a {
 
     .col {
         width: 83%;
-    }
-
-    .col:nth-child(2n)> {
-        clip-path: circle(50% at 100% 0);
-        /* clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); */
-        transition: 1s all ease-out;
-    }
-
-    .col:nth-child(2n):hover {
-        clip-path: circle(140.9% at 0 0);
-    }
-
-    .col:nth-child(2n+1) {
-        clip-path: circle(50% at 0% 0);
-        /* clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%); */
-        /* clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); */
-
-        transition: .3s all ease-out;
-    }
-
-    .col:nth-child(2n+1):hover {
-        clip-path: circle(140.9% at 0 0);
     }
 
 }
