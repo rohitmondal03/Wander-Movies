@@ -74,12 +74,6 @@ a {
     transition: 0.5s;
 }
 
-/* .info-card:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border: .2rem solid rgb(168, 81, 249);
-} */
-
 .info-card .card-body {
     /* border: 2px solid black; */
     border-radius: 5px;
@@ -87,10 +81,6 @@ a {
     animation: bgColor 15s linear infinite;
 }
 
-/* .info-card .card-body:hover {
-    animation: bgChng 10s;
-    animation-duration: 1s;
-} */
 
 @keyframes bgColor {
     0% {
@@ -156,8 +146,12 @@ a {
     margin: 10px auto;
 }
 
-.btn {
-    /* background-color: blue; */
+.btn:hover {
+    transform: scale(.9);
+}
+
+.btn:active {
+    transform: scale(.8);
 }
 
 
@@ -165,7 +159,6 @@ a {
 /* About section */
 
 .about-sec {
-    /* background-color: azure; */
     margin: 10rem auto;
     width: 60vw;
 }
@@ -175,18 +168,13 @@ a {
 }
 
 .col:nth-child(2n) {
-    /* clip-path: circle(50% at 100% 0); */
-    /* clip-path: ellipse(24% 24% at 50% 50%); */
     transition: 1s ease-out;
 }
 
 .col:nth-child(2n):hover {
-    /* clip-path: circle(140.9% at 0 0); */
 }
 
 .col:nth-child(2n+1) {
-    /* clip-path: circle(50% at 0 0); */
-    /* clip-path: ellipse(24% 24% at 50% 50%); */
     transition: .5s ease-out;
 }
 
@@ -239,12 +227,6 @@ a {
 .row #output-card a {
     transition: .5s;
     border: 1px solid black;
-}
-
-.row #output-card a:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    /* font-weight: 400; */
 }
 
 .row #output-card h3 {
